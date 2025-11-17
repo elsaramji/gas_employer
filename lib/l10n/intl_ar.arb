@@ -1,12 +1,11 @@
 {
   "@@locale": "ar",
-
-  "app_name": "اسم التطبيق",
+  "app_name": "موظفين شركة الغاز",
   "welcome": "مرحبًا بك",
   "loading": "جاري التحميل...",
   "error": "حدث خطأ ما",
-
-  "phone": "رقم الهاتف",
+  "enter_valid_phone": "ادخل رقم هاتف صالح",
+  "phone": "01012313411",
   "enter_phone": "أدخل رقم الهاتف",
   "send_code": "إرسال رمز التحقق",
   "enter_code": "أدخل رمز التحقق",
@@ -21,7 +20,6 @@
   "invalid_code": "رمز غير صالح",
   "too_many_attempts": "محاولات كثيرة. حاول لاحقًا.",
   "welcome_back": "مرحبًا بعودتك",
-
   "otp_title": "رمز التحقق",
   "otp_subtitle": "أدخل الكود المرسل إلى رقم هاتفك",
   "otp_timer": "ستنتهي صلاحية الرمز قريبًا",
@@ -29,13 +27,11 @@
   "otp_change_number": "تغيير الرقم",
   "otp_verified": "تم التحقق",
   "otp_not_verified": "لم يتم التحقق",
-
   "good_morning": "صباح الخير",
   "good_evening": "مساء الخير",
   "good_afternoon": "مساء الخير",
   "good_night": "تصبح على خير",
   "registered_at": "تم التسجيل في الساعة",
-
   "attendance_title": "الحضور",
   "present_days_month": "أيام الحضور هذا الشهر",
   "absent_days_month": "أيام الغياب هذا الشهر",
@@ -52,7 +48,6 @@
   "attendance_history": "سجل الحضور",
   "excused_absence": "غياب بعذر",
   "unexcused_absence": "غياب بدون عذر",
-
   "hour": "ساعة",
   "hours": "ساعات",
   "minute": "دقيقة",
@@ -65,14 +60,12 @@
   "yesterday": "أمس",
   "tomorrow": "غدًا",
   "date": "التاريخ",
-
   "latest_news": "آخر الأخبار",
   "news_home": "الرئيسية",
   "news_empty": "لا توجد أخبار حالياً",
   "read_more": "اقرأ المزيد",
   "published_at": "تاريخ النشر",
   "news_search": "البحث في الأخبار",
-
   "nav_home": "الرئيسية",
   "nav_services": "الخدمات",
   "nav_account": "الحساب",
@@ -82,7 +75,6 @@
   "nav_support": "الدعم",
   "nav_faq": "الأسئلة الشائعة",
   "nav_about": "عن التطبيق",
-
   "my_profile": "ملفي",
   "edit_profile": "تعديل الملف",
   "name": "الاسم",
@@ -91,7 +83,6 @@
   "save": "حفظ",
   "cancel": "إلغاء",
   "update_success": "تم تحديث البيانات بنجاح",
-
   "ok": "حسناً",
   "confirm": "تأكيد",
   "close": "إغلاق",
@@ -100,7 +91,6 @@
   "previous": "السابق",
   "skip": "تخطي",
   "retry": "إعادة المحاولة",
-
   "network_error": "خطأ في الاتصال. تحقق من الإنترنت.",
   "unknown_error": "حدث خطأ غير متوقع.",
   "server_error": "خطأ في الخادم. حاول لاحقًا.",
@@ -108,48 +98,39 @@
   "required_field": "هذا الحقل مطلوب",
   "min_length": "عدد الأحرف أقل من المطلوب",
   "max_length": "عدد الأحرف أكبر من المسموح به",
-
   "new_notification": "لديك إشعار جديد",
   "no_notifications": "لا توجد إشعارات",
   "mark_all_read": "تحديد الكل كمقروء",
   "view_all": "عرض الكل",
-
   "services_title": "الخدمات",
   "services_empty": "لا توجد خدمات متاحة",
   "book_service": "حجز خدمة",
   "service_details": "تفاصيل الخدمة",
-
   "account_balance": "الرصيد",
   "transactions": "التحويلات",
   "payment_methods": "طرق الدفع",
   "add_card": "إضافة بطاقة",
   "billing": "الفواتير",
-
   "search": "بحث",
   "search_placeholder": "اكتب للبحث...",
   "no_results": "لا توجد نتائج",
-
   "yes": "نعم",
   "no": "لا",
   "optional": "اختياري",
   "required": "إجباري",
   "success": "تم بنجاح",
   "failed": "فشل",
-
   "visits": "عدد الزيارات",
   "active_users": "المستخدمون النشطون",
-
   "onboarding_skip": "تخطي",
   "onboarding_done": "تم",
   "onboarding_next": "التالي",
   "onboarding_welcome_title": "مرحبًا بك",
   "onboarding_welcome_subtitle": "أفضل تجربة لإدارة الحضور والخدمات",
-
   "permission_location": "إذن الموقع",
   "permission_camera": "إذن الكاميرا",
   "permission_notifications": "إذن الإشعارات",
   "permission_denied": "الإذن مرفوض. يمكنك تمكينه من الإعدادات.",
-
   "faq": "الأسئلة الشائعة",
   "contact_us": "اتصل بنا",
   "terms": "الشروط والأحكام",

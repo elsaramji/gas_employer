@@ -1,18 +1,18 @@
+import 'package:gas_employer/features/auth/persenetiton/views/login_view.dart';
 import 'package:go_router/go_router.dart';
-
-import '../../main.dart';
 
 class AppRoutesNamed {
   static const String initial = "/intial";
+  static const String login = "/login";
 }
 
 GoRouter getRoute() {
   return GoRouter(
-    initialLocation: AppRoutesNamed.initial,
+    initialLocation: AppRoutesNamed.login,
     routes: [
       GoRoute(
-        path: AppRoutesNamed.initial,
-        builder: (context, state) => Demo(),
+        path: AppRoutesNamed.login,
+        builder: (context, state) => LoginView(),
       ),
     ],
   );

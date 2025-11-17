@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gas_employer/generated/l10n.dart';
 
 class AppColors {
   // Const Light Colors
@@ -8,6 +9,7 @@ class AppColors {
   static const Color onSecondary = Color(0xFF919191);
   static const Color background = Color(0xFFf5f7f5);
   static const Color onBackground = Color(0xFF333333);
+  static const Color error = Color(0xFFff2510);
 
   /// Light ColorScheme
   static ColorScheme colorSchemeLight() {

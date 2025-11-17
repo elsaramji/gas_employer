@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gas_employer/core/constant/app_constant.dart';
 import 'package:gas_employer/core/routes/routes.dart';
 import 'package:gas_employer/core/themes/theme_data.dart';
 import 'package:gas_employer/generated/l10n.dart';
@@ -8,6 +10,7 @@ import 'package:gas_employer/generated/l10n.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MainApp());
 }
 
@@ -17,11 +20,12 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(390, 884),
+      designSize: const Size(375, 812),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) => MaterialApp.router(
-        locale: Locale("en"),
+        locale: Locale(AppConstant.appLocale.name),
+
         localizationsDelegates: [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -33,7 +37,6 @@ class MainApp extends StatelessWidget {
         theme: AppThemeData.lightTheme(),
         routerConfig: getRoute(),
       ),
-      child: Scaffold(),
     );
   }
 }
@@ -66,6 +69,7 @@ class Demo extends StatelessWidget {
           children: [
             TextField(
               decoration: InputDecoration(
+                
                 hintText: "Search",
                 prefixIcon: Icon(Icons.search),
               ),

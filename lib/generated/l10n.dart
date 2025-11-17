@@ -55,9 +55,14 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `App Name`
+  /// `GAS Employer App`
   String get app_name {
-    return Intl.message('App Name', name: 'app_name', desc: '', args: []);
+    return Intl.message(
+      'GAS Employer App',
+      name: 'app_name',
+      desc: '',
+      args: [],
+    );
   }
 
   /// `Welcome`
@@ -80,9 +85,19 @@ class S {
     );
   }
 
-  /// `Phone Number`
+  /// `01012313411`
   String get phone {
-    return Intl.message('Phone Number', name: 'phone', desc: '', args: []);
+    return Intl.message('01012313411', name: 'phone', desc: '', args: []);
+  }
+
+  /// `Your phone number not Correct`
+  String get enter_valid_phone {
+    return Intl.message(
+      'Your phone number not Correct',
+      name: 'enter_valid_phone',
+      desc: '',
+      args: [],
+    );
   }
 
   /// `Enter your phone number`

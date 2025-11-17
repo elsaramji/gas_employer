@@ -30,7 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "active_users": MessageLookupByLibrary.simpleMessage("Active users"),
     "add_card": MessageLookupByLibrary.simpleMessage("Add card"),
     "am": MessageLookupByLibrary.simpleMessage("AM"),
-    "app_name": MessageLookupByLibrary.simpleMessage("App Name"),
+    "app_name": MessageLookupByLibrary.simpleMessage("GAS Employer App"),
     "attendance_history": MessageLookupByLibrary.simpleMessage(
       "Attendance history",
     ),
@@ -54,6 +54,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "enter_phone": MessageLookupByLibrary.simpleMessage(
       "Enter your phone number",
+    ),
+    "enter_valid_phone": MessageLookupByLibrary.simpleMessage(
+      "Your phone number not Correct",
     ),
     "error": MessageLookupByLibrary.simpleMessage("Something went wrong"),
     "excused_absence": MessageLookupByLibrary.simpleMessage("Excused absence"),
@@ -157,7 +160,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "permission_notifications": MessageLookupByLibrary.simpleMessage(
       "Notifications permission",
     ),
-    "phone": MessageLookupByLibrary.simpleMessage("Phone Number"),
+    "phone": MessageLookupByLibrary.simpleMessage("01012313411"),
     "pm": MessageLookupByLibrary.simpleMessage("PM"),
     "present_day": MessageLookupByLibrary.simpleMessage("Present day"),
     "present_days_month": MessageLookupByLibrary.simpleMessage(

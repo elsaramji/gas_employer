@@ -30,7 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "active_users": MessageLookupByLibrary.simpleMessage("المستخدمون النشطون"),
     "add_card": MessageLookupByLibrary.simpleMessage("إضافة بطاقة"),
     "am": MessageLookupByLibrary.simpleMessage("صباحًا"),
-    "app_name": MessageLookupByLibrary.simpleMessage("اسم التطبيق"),
+    "app_name": MessageLookupByLibrary.simpleMessage("موظفين شركة الغاز"),
     "attendance_history": MessageLookupByLibrary.simpleMessage("سجل الحضور"),
     "attendance_title": MessageLookupByLibrary.simpleMessage("الحضور"),
     "billing": MessageLookupByLibrary.simpleMessage("الفواتير"),
@@ -51,6 +51,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "enter_code": MessageLookupByLibrary.simpleMessage("أدخل رمز التحقق"),
     "enter_phone": MessageLookupByLibrary.simpleMessage("أدخل رقم الهاتف"),
+    "enter_valid_phone": MessageLookupByLibrary.simpleMessage(
+      "ادخل رقم هاتف صالح",
+    ),
     "error": MessageLookupByLibrary.simpleMessage("حدث خطأ ما"),
     "excused_absence": MessageLookupByLibrary.simpleMessage("غياب بعذر"),
     "failed": MessageLookupByLibrary.simpleMessage("فشل"),
@@ -143,7 +146,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "permission_notifications": MessageLookupByLibrary.simpleMessage(
       "إذن الإشعارات",
     ),
-    "phone": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+    "phone": MessageLookupByLibrary.simpleMessage("01012313411"),
     "pm": MessageLookupByLibrary.simpleMessage("مساءً"),
     "present_day": MessageLookupByLibrary.simpleMessage("يوم حضور"),
     "present_days_month": MessageLookupByLibrary.simpleMessage(

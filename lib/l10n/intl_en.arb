@@ -1,10 +1,11 @@
 {
     "@@locale": "en",
-    "app_name": "App Name",
+    "app_name": "GAS Employer App",
     "welcome": "Welcome",
     "loading": "Loading...",
     "error": "Something went wrong",
-    "phone": "Phone Number",
+    "phone": "01012313411",
+    "enter_valid_phone": "Your phone number not Correct",
     "enter_phone": "Enter your phone number",
     "send_code": "Send Verification Code",
     "enter_code": "Enter the verification code",

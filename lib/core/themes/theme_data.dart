@@ -30,6 +30,8 @@ class AppThemeData {
       style: ElevatedButton.styleFrom(
         minimumSize: Size.fromHeight(50.h),
         backgroundColor: AppColors.primary,
+        foregroundColor: AppColors.background,
+        textStyle: AppTextStyle.interBold16,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.r),
         ),
@@ -38,10 +40,9 @@ class AppThemeData {
     // icon button theme
     iconButtonTheme: IconButtonThemeData(
       style: IconButton.styleFrom(
-        minimumSize: Size.fromRadius(50.r),
+        minimumSize: Size(50.w, 50.h),
         backgroundColor: AppColors.secondary,
         iconSize: 26.sp,
-
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.r),
         ),
@@ -53,22 +54,27 @@ class AppThemeData {
     inputDecorationTheme: InputDecorationThemeData(
       filled: true,
       fillColor: AppColors.background,
+      constraints: BoxConstraints(minHeight: 50.h),
+      //contentPadding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 4.h),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10.r),
         borderSide: BorderSide(color: AppColors.onSecondary, width: 1.sp),
       ),
-
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10.r),
+        borderSide: BorderSide(color: AppColors.error, width: 1.sp),
+      ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10.r),
-        borderSide: BorderSide(color: AppColors.primary),
+        borderSide: BorderSide(color: AppColors.primary, width: 1.sp),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10.r),
-        borderSide: BorderSide(color: AppColors.primary),
+        borderSide: BorderSide(color: AppColors.onSecondary, width: 1.sp),
       ),
       disabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10.r),
-        borderSide: BorderSide(color: AppColors.onSecondary),
+        borderSide: BorderSide(color: AppColors.onSecondary, width: 1.sp),
       ),
     ),
     // app bar theme
