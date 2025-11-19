@@ -1,15 +1,23 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gas_employer/core/constant/app_constant.dart';
+import 'package:gas_employer/core/di/di.dart';
 import 'package:gas_employer/core/routes/routes.dart';
 import 'package:gas_employer/core/themes/theme_data.dart';
 import 'package:gas_employer/generated/l10n.dart';
 
+import 'firebase_options.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
+  await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
+  configureDependencies();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MainApp());
 }
@@ -69,7 +77,6 @@ class Demo extends StatelessWidget {
           children: [
             TextField(
               decoration: InputDecoration(
-                
                 hintText: "Search",
                 prefixIcon: Icon(Icons.search),
               ),

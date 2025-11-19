@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198834799634",
+    "project_id": "gas-employers",
+    "storage_bucket": "gas-employers.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198834799634:android:0b886d015c6c70146844cb",
+        "android_client_info": {
+          "package_name": "com.example.gas_employer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtJ3joSj-xz5NpcV2yDUl5mr6QndH4EOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
